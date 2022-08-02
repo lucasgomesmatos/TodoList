@@ -2,4 +2,4 @@
 
 ###Tecnologias usadas
   * React
-  *TypeScript
+  * TypeScript
