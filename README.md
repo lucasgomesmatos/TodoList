@@ -1,5 +1,5 @@
 # Lista de afazeres
 
-###Tecnologias usadas
+### Tecnologias usadas
   * React
   * TypeScript
