@@ -11,7 +11,7 @@ const App = () => {
   ])
 
   useEffect(() => {
-    const local = localStorage.getItem('lista')
+    let local  = localStorage.getItem('lista') || '{}'
     
     if(local !== 'null') {
       setList(JSON.parse(local))
@@ -45,8 +45,6 @@ const App = () => {
     }
  
     
-  
-
   return (
     <C.Container>
       <C.Area>
